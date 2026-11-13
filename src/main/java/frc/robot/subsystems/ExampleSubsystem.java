@@ -24,6 +24,7 @@ public class ExampleSubsystem extends SubsystemBase {
   public Command exampleMethodCommand() {
     // Inline construction of command goes here.
     // Subsystem::RunOnce implicitly requires `this` subsystem.
+    // gsv insdi best coder
     return runOnce(
         () -> {
         m_motor.set(0.2);
